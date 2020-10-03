@@ -14,13 +14,13 @@ if (Test-Path $vmnumberxmlpath) {$vmnumber = Import-Clixml $vmnumberxmlpath}
 else {$vmnumber = 1}
 
 # The prefix used in your VMs name.
-$vmnameprefix = "SCCM-TEST-"
+$vmnameprefix = ""
 
 # Enter the path to the directory that your VM will be located in.
-$vmdirectory = "D:\Hyper-V"
+$vmdirectory = ""
 
 # The location of your Boot ISO
-$bootiso = "D:\ISOs\SCCM WinPe Media 2009.iso"
+$bootiso = ""
 
 # Enter the name of your vSwitch in Hyper-V.
 $hypervswitch = "Default External Switch"
